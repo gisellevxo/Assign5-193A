@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<legend>Text</legend>
+    	<textarea id="textArea" rows="4" cols="30"></textarea>
+		
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+
+		<!-- Your UI controls go here -->
+		
+		<!-- field set #1 -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="textArea" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<!-- field set #2 -->
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="makeBigger()">Bigger!</button>
+			<input type="radio" name="radioGroup" id="fancyShmancyRadio" onchange="fancyText()">
+			<label for="fancyShmancyRadio">FancyShmancy</label>
+			<input type="radio" name="radioGroup" id="boringBettyRadio" onchange="boringText()">
+			<label for="boringBettyRadio">BoringBetty</label>
+			<button onclick="makeUppercase()">Moo</button>
+		</fieldset>
+		 
+		
+	</body>
+</html>
